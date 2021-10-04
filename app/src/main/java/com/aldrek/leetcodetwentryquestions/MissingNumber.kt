@@ -1,11 +1,13 @@
 package com.aldrek.leetcodetwentryquestions
 
-    fun main(){
+
+ fun main(){
         var nums = intArrayOf(9,6,4,2,3,5,7,0,1)
         var result = missingNumberValue(nums)
         print(result)
     }
 
+    // this is the best of all tom,es
 fun missingNumberValue(nums: IntArray): Int {
     var startingPoint = 0
     var endPoint = nums.size
