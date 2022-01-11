@@ -13,4 +13,5 @@ fun isPalindrome(s: String): Boolean {
     print(reversedResult+"\n")
 
     return result.equals(reversedResult)
+
 }
